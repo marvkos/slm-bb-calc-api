@@ -7,6 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CalculatorController {
 
+    /**
+     * Add two integers.
+     */
     @RequestMapping("/calc/add")
     public int add(
         @RequestParam int a,
