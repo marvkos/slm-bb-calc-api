@@ -1,6 +1,8 @@
-name: Java CI with Maven
+name: Upload jar
 
 on:
+  push:
+    branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
 
